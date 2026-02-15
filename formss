@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Térms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 30px;
+            color: #444;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        .fecha {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#Envios">Envios</a>
+    </div>
+    <div>
+        <a href="#Compras">Compras y pagos</a>
+    </div>
+    <div>
+        <a href="terms.html" download>Descargar terminos y condiciones</a>
+    </div>
+    <div>
+        terminos y condiciones creados 
+        en: <a href="https://estilocordobes.com" target="_blank" rel="noopener noreferer nofollow">estilocordobes.com</a>
+    </div>
+    <h1>TÉRMINOS Y CONDICIONES</h1>
+    <p class="fecha">Última actualización: [Fecha]</p>
+
+    <p>Bienvenido/a a <strong>Vida y frutos</strong>. Al acceder y utilizar este sitio web, usted acepta los siguientes Términos y Condiciones. Si no está de acuerdo con alguno de ellos, le recomendamos no utilizar el sitio.</p>
+
+    <h2>1. Información General</h2>
+    <p>El presente sitio web tiene como finalidad la comercialización online de frutos secos, semillas, harinas y productos relacionados.</p>
+    <p>La utilización del sitio implica la aceptación plena y sin reservas de estos términos.</p>
+
+    <h2>2. Productos</h2>
+    <ul>
+        <li>Las imágenes son ilustrativas.</li>
+        <li>La disponibilidad puede variar sin previo aviso.</li>
+        <li>Las características y precios pueden modificarse en cualquier momento.</li>
+    </ul>
+
+    <h2>3. Precios</h2>
+    <ul>
+        <li>Todos los precios están expresados en la moneda correspondiente.</li>
+        <li>Los precios pueden modificarse sin previo aviso.</li>
+        <li>El precio válido será el vigente al momento de la compra.</li>
+    </ul>
+
+    <h2 id="Compras">4. Compras y Pagos</h2>
+    <p>Las compras realizadas a través del sitio estarán sujetas a confirmación de pago.</p>
+    <p>Los medios de pago disponibles serán informados en la plataforma al momento de la compra.</p>
+    <p>El vendedor se reserva el derecho de cancelar una operación en caso de error en el precio o falta de stock.</p>
+
+    <h2 id="Envios">5. Envíos</h2>
+    <ul>
+        <li>Los envíos se realizan dentro del territorio indicado en el sitio.</li>
+        <li>Los plazos de entrega son estimativos.</li>
+        <li>No nos responsabilizamos por demoras atribuibles a terceros (correo o transporte).</li>
+    </ul>
+
+    <h2>6. Cambios y Devoluciones</h2>
+    <p>Por tratarse de productos alimenticios:</p>
+    <ul>
+        <li>No se aceptan devoluciones una vez entregado el producto, salvo que el mismo presente defectos de calidad o se encuentre en mal estado.</li>
+        <li>En caso de producto defectuoso, el cliente deberá comunicarlo dentro de las 24/48 horas de recibido.</li>
+    </ul>
+
+    <h2>7. Responsabilidad</h2>
+    <ul>
+        <li>El usuario es responsable del uso adecuado de los productos.</li>
+        <li>No nos responsabilizamos por reacciones alérgicas. Se recomienda verificar los ingredientes antes de consumir.</li>
+        <li>No garantizamos que el sitio funcione de manera ininterrumpida o libre de errores técnicos.</li>
+    </ul>
+
+    <h2>8. Protección de Datos</h2>
+    <p>Este sitio no recopila, almacena ni procesa datos personales de los usuarios.</p>
+    <p>No se utilizan bases de datos, registros de usuarios ni sistemas de almacenamiento de información personal.</p>
+
+    <h2>9. Propiedad Intelectual</h2>
+    <p>Todo el contenido del sitio (textos, imágenes, logotipos, diseños) es propiedad del titular y no puede ser utilizado sin autorización.</p>
+
+    <h2>10. Modificaciones</h2>
+    <p>Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones entrarán en vigencia desde su publicación en el sitio.</p>
+
+    <h2>11. Legislación Aplicable</h2>
+    <p>Estos términos se rigen por las leyes del país correspondiente. Cualquier conflicto será sometido a los tribunales competentes.</p>
+
+</body>
+</html>

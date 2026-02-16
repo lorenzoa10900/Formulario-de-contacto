@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="box">
+                <form action="#" method="post">
+                    <div class="tittle">
+                        <h2>FORMULARIO DE CONTACTO</h2>
+                    </div>
+                    <!-- SIMPLE INPUTS-->
+                    <fieldset class="box-field">
+                        <legend class="legend">DATOS DE CONTACTO</legend>
+                        <div class="dato">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input id="nombre" type="text" placeholder="Franklin State" required/>
+                        </div>
+                        <div class="dato">
+                            <label for="email" >Email</label>
+                            <input id="email" type="email" placeholder="Ejemplo@gmail.com" required/>
+                        </div>
+                    </fieldset>
+                    <!-- TEXTAREA Y SELECT-->
+
+                    <fieldset class="box-field">
+                        <legend class="legend">DATOS DE SU REPORTE</legend>
+                       <div >
+                            <label for="comentario">Comentario</label>
+                            <textarea id="comentario" placeholder="Detalle su comentario"></textarea>
+                        </div>
+                        <div class="dato">
+                            <label>Tipo de problema
+                                <select name="Tipo-de-problema">
+                                    <option value="1">Mal funcionamiento</option>
+                                    <option value="2">Falla en la navegacion</option>
+                                    <option value="3">No se envia el formulario</option>
+                                </select>
+                            </label>
+                        </div>
+
+                            <!-- DATALIST Y OPTION -->
+                        <div class="dato">
+                            <label>Por donde nos conociste
+                                <input list="referente" name="referente"/>
+                                <datalist id="referente" name="type-of-user">
+                                    <option value="Por un amigo/a"></option>
+                                    <option value="Por redes sociales"></option>
+                                    <option value="Por anuncios"></option>
+                                </datalist>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <!--LABEL E INPUT -->
+                    <div class="dato">
+                        <label>Acepto los <a href="terms.html" target="_blank">terminos y condiciones</a>
+                            <input class="checkbox" type="checkbox" required/>
+                        </label>
+                    </div>
+                    <button class="boton">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
